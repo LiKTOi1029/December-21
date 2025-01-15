@@ -1,6 +1,11 @@
 function fChecker(input)
+	local tBrackets = {}
+	local tPointer = {}
 	for num0 = 1, input:len(), 1 do
-		print(input:sub(num0, num0))
+		table.insert(tBrackets, input:sub(num0,num0))
+	end
+	for num1, bracket in ipairs(tBrackets) do
+		--thinking on how to count each single paranthesis, bracket, and curly brace rn
 	end
 	return true
 end
