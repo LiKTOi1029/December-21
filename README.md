@@ -1,10 +1,8 @@
 # December 21
-
-It was supposed to take pairs of curly braces, square brackets, and parantheses and make sure that they open and close correctly. If they are not properly opened or closed then it returns `false` and if they are properly opened and closed then it returns `true`
-I was thinking of redoing this recently. Hence adding it in.
-
-Example function:
-
-`[{()({})}]` = `true`
-
-`[[]{](})` = `false`
+This is a coding challenge that takes a string of brackets, braces, and parenthesis and check if they all close properly. If they all close properly then true else false\
+\
+Example function:\
+\
+`[{()({})}]` = `true`\
+\
+`[[]{](})` = `false`\
