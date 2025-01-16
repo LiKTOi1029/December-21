@@ -5,4 +5,4 @@ Example function:\
 \
 `[{()({})}]` = `true`\
 \
-`[[]{](})` = `false`\
+`[[]{](})` = `false`
